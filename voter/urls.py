@@ -4,4 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('votes/<slug:room_id>', delete_room),
+    path('', home),
 ]

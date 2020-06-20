@@ -10,14 +10,13 @@ from .models import Votes
 from django.db import models
 
 
-#
-# @api_view(['GET'])
-# @renderer_classes([JSONRenderer])
-# def test_view(request):
-#     content = {
-#         'hello': 'world'
-#     }
-#     return Response(content)
+@api_view(['GET'])
+@renderer_classes([JSONRenderer])
+def home(request):
+    content = {
+        'hello': 'world'
+    }
+    return Response(content)
 
 
 @api_view(['DELETE'])
