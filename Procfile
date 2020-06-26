@@ -1,0 +1,1 @@
+web: gunicorn detroit_voter_backend.wsgi
