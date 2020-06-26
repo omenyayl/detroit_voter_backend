@@ -1,1 +1,1 @@
-web: gunicorn detroit_voter_backend.wsgi
+web: python manage runserver
