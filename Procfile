@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:29534
+web: gunicorn detroit_voter_backend.wsgi
