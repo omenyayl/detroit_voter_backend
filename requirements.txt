@@ -55,7 +55,7 @@ Twisted==20.3.0
 txaio==20.4.1
 typed-ast==1.4.1
 uritemplate==3.0.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.21
 whitenoise==5.1.0
 wincertstore==0.2
